@@ -1,9 +1,16 @@
-# 소개 ![image](https://github.com/user-attachments/assets/f7d7300f-aeb3-456e-b1e6-d3afb40c875e)
-
+# 소개 
 안녕하세요! 데이터 사이언티스트 조성재입니다.
 현재 서울대학교 통계학과 석사과정에 재학 중입니다.
 머신러닝 및 딥러닝을 활용하여 데이터 기반 의사결정을 지원하고 AI 모델의 성능을 최적화하는데 관심이 있습니다. 특히, 대규모 언어 모델 튜닝, 이상치 합성 연구, 통계 기반 머신러닝 모델 개발을 수행하며 다양한 프로젝트 경험을 쌓았습니다.
+----
 
 # 주요 진행 프로젝트
 1. MC gradCAM
-- 
+  - 연구 개요
+    이미지 모델의 예측값에 대한 신뢰성을 분석하기 위한 기법으로 이미지 내 주목 영역을 시각화하는 기술인 GradCAM의 불확실성을 계측
+  - 수행 내용
+    - 전이학습으로 사용 가능한 VGG16, InceptionV3 등의 FC layer 뒤에 MCdropout layer를 추가
+    - 각 모델의 마지막 Convolution layer의 모델 파라미터를 이용하여 true class에 대한 GradCAM을 반복적으로 수집
+    - 이미지별 GradCAM들의 Frobenius Norm을 계산하고 이들의 분포를 비교
+  - 의의
+    - 
