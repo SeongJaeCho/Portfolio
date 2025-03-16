@@ -3,7 +3,7 @@
 현재 서울대학교 통계학과 석사과정에 재학 중입니다.
 머신러닝 및 딥러닝을 활용하여 데이터 기반 의사결정을 지원하고 AI 모델의 성능을 최적화하는데 관심이 있습니다. 특히, 대규모 언어 모델 튜닝, 이상치 합성 연구, 통계 기반 머신러닝 모델 개발을 수행하며 다양한 프로젝트 경험을 쌓았습니다.
 
-
+---
 ## 주요 진행 프로젝트
 ### 1) LLM 기반 데이터 분석 AI Assistant 개발
 **📌 프로젝트 개요**
@@ -40,4 +40,55 @@
 
 **🛠️ 수행 내용**
 - 주식 거래 데이터를 기반으로 시점별 매도 발생 여부와 과거 보유기간을 반영한 생존 분석(Survival Analysis) 모델을 설계하여 **보유 기간 예측**
-- 기존 생존분석 기법을 개선하여 **Gradient Bo정
+- 기존 생존분석 기법을 개선하여 **Gradient Bo정- 기존 생존분석 기법을 개선하여 **Gradient Boosted Model을 적용한 머신러닝 기반 생존 분석 모델 개발**
+
+**📊 주요 성과**
+- 844개 팀 중 **상위 50위 달성**
+- 생존 분석을 머신러닝 기법과 결합하여 **일반적인 금융 데이터 예측보다 높은 성능을 기록**
+
+**관련 링크**
+- [https://dacon.io/competitions/official/235798/overview/description]
+
+### 4) 이상치 합성 연구 (Manifold Hypothesis 및 Conformal Prediction 활용)
+**📌 연구 개요**
+- **Label이 있는 데이터셋에서 이상치를 합성하는 기법 연구**
+- 생성모델(Generative Model)에서 가정하는 **Manifold Hypothesis를 기반으로 이상치를 탐지하고, 이를 Conformal Prediction을 활용하여 합성**
+
+**🛠️ 수행 내용**
+- Latent Space 상에서 Class별 분포를 분석하고 이상치 데이터를 판별 및 합성
+- 기존 기법(VOS, DREAM)의 한계를 극복하기 위해 Coverage Guarantee를 활용한 이상치 합성 방법 고안
+
+**📊 연구 의의**
+- **해석, 통제 가능한 이상치 데이터 합성 기법을 개발**하여 기존 기법 대비 신뢰성을 확보
+- AI 모델의 이상 탐지 및 일반화 성능 향상을 위한 데이터 증강 기법 연구
+- 추후 업데이트 예정
+
+---
+
+## 3. 기술 스택
+
+### 📌 프로그래밍 및 데이터 분석
+- Python (Numpy, Pandas, Scikit-learn, Matplotlib, Seaborn)
+- SQL (공부중)
+- PyTorch, TensorFlow (딥러닝 모델 개발 및 학습)
+- Jupyter Notebook, Google Colab (데이터 분석 및 모델 실험)
+
+### 📌 머신러닝 & 딥러닝
+- 지도학습 (Regression, Classification, Survival Analysis)
+- 비지도학습 (Anomaly Detection, Clustering)
+- 딥러닝 모델 (CNN, LLM)
+- 이상치 탐지 및 합성 모델 연구 (VOS, DREAM, BCOPS) : 추후 업데이트 예정
+
+### 📌 XAI
+- GradCAM (CNN 모델 해석)
+
+### 📌 Uncertainty
+- Conformal prediction
+---
+
+## 4. 연락처
+- 📧 이메일: sjcho9908@gmail.com
+- 📍 GitHub: [https://github.com/SeongJaeCho]
+- 📄 LinkedIn: [https://kr.linkedin.com/in/%EC%84%B1%EC%9E%AC-%EC%A1%B0-01628628a?trk=people-guest_people_search-card&original_referer=https%3A%2F%2Fwww.linkedin.com%2F]
+
+---
